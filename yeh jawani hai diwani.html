@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all about you</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/20108378/pexels-photo-20108378/free-photo-of-winter-mountains-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            overflow: auto; /* Set overflow to auto to make the page scrollable */
+        }
+
+        /* Additional styling for content */
+        .artistic-heading {
+            text-align: center;
+            font-size: 90px;
+            font-weight: bolder;
+            font-family: 'aesthetic', Arial, sans-serif;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+
+        .main-traits{
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+            margin-bottom: 20px;
+            margin-top: 2%;
+            font-weight: 700;
+            color: #ffffff;    
+        }
+
+        /* Style for container wrapping iframe containers */
+        .iframe-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Align items in the center vertically */
+        }
+
+        /* Style for iframe containers */
+        .iframe-container {
+            position: relative;
+            width: 35%; /* Adjusted width */
+            height: 30%;
+            padding-top: 16.875%; /* 16:9 aspect ratio */
+            margin: 30px 0; /* Decreased margin between iframes */
+        }
+
+        /* Style for iframes */
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="artistic-heading"><b>Yeh Jawani Hai Deewani</b></div>
+    <br>
+    <div class="main-traits"><b></b><i>This is the life we all manifest for .</i></b></div>
+    <div class="column">
+        <!-- iframes with different URLs -->
+    </div>
+    <div class="iframe-wrapper">
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qO8bSP_7rAc?si=3JNO2AepgRB2JoCB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>   
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3fnbQ4nJSJI?si=J9WZETg6RXHTQX_B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe width="789" height="335" src="https://www.youtube.com/embed/Uy3sgshwUL4" title="YJHD - Bunny Finally Proposed to Naina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe width="789" height="335" src="https://www.youtube.com/embed/Yfd7cyEctB0" title="YJHD - Funny Fight" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>

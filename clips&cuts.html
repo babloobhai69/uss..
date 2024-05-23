@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plug in</title>
+    <style>
+        body {
+            margin:0%;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/564x/cd/b9/79/cdb9793fdb6c9ebef45d38d39ca1d5f3.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            height: 100vh; /* Full viewport height */
+            font-family: Arial, Helvetica, sans-serif; /* Set default font family */
+            color: #ffffff; /* Set default text color */
+            overflow: scroll;
+        }
+        
+        /* Additional styling for content */
+        .content {
+            text-align: center;
+            padding-top: 50vh; /* Push content down by half of viewport height */
+            color: white;
+        }
+        .h1 {
+            text-align: center;
+            font-size: 36px; /* Add a unit for font size */
+            font-family: 'aesthetic', Arial, sans-serif;
+            margin-bottom: 20px; /* Adjust bottom margin */
+            margin-top: 20px; /* Adjust top margin */
+            background-image: linear-gradient(to right, #ff8a00, #e52e71); /* Gradient color */
+            -webkit-background-clip: text; /* Apply gradient only to text */
+            background-clip: text;
+            color: transparent; /* Hide text */
+        }
+        .h2 {
+            text-align: center;
+            font-size: 25px; /* Add a unit for font size */
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px; /* Adjust bottom margin */
+            margin-top: 20px; /* Adjust top margin */
+            color: rgb(235, 255, 175);
+            -webkit-background-clip: text; /* Apply gradient only to text */
+            background-clip: text;
+        }
+        .artistic-heading {
+            text-align: center;
+            font-size: 90px;
+            font-weight: bolder;
+            font-family: 'aesthetic', Arial, sans-serif;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            -webkit-background-clip: text; /* Apply gradient only to text */
+            background-clip: text;
+            color: #f13f09;
+        }
+        .main-traits{
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+            margin-bottom: 20px;
+            margin-top: 2%;
+            font-weight: 700;
+            margin-left: 10%;
+            margin-right: 10%;
+            -webkit-background-clip: text; /* Apply gradient only to text */
+            background-clip: text;
+            color: #ea1b7b;    
+        }
+        .zodiac-text {
+            text-align: center;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            -webkit-background-clip: text; /* Apply gradient only to text */
+            background-clip: text;
+            color: #efefef;
+        }
+        /* Style for buttons */
+        .button {
+            display: block;
+            width: 35%; /* Set width of buttons */
+            height: 30%;
+            margin-bottom: 20px; /* Add bottom margin */
+            margin-left:35%; 
+            padding: 10%; /* Add padding */
+            border-radius: 5px; /* Add border radius */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+            background-color: rgba(0, 0, 0, 0.733); /* Default background color */
+            color: #ffffff; /* Default text color */
+            border: none; /* Remove border */
+            cursor: pointer; /* Add pointer cursor */
+            transition: background-color 0.3s; /* Add transition for smooth hover effect */
+        }
+        /* Hover effect for buttons */
+        .button:hover {
+            background-color: rgba(255, 255, 255, 0); /* Change background color on hover */
+            color: #fee905; /* Change text color on hover */
+        }
+        /* Style for two-column layout */
+        .column {
+            column-count: 1; /* Set the number of columns */
+            column-gap: 20px; /* Set the gap between columns */
+        }
+    </style>
+</head>
+<body>
+    <div class="artistic-heading"><b>Clips & Cuts</b></div>
+    <br>
+    <div class="main-traits"><b></b><i>Sit back and enjoy the clips from few of your favourite movies and shows! </i></b></div>
+    <div class="column">
+        <!-- Buttons with different URLs -->
+        <button class="button" onclick="window.location.href='jab we met.html'" style="background-image: url('https://m.media-amazon.com/images/S/pv-target-images/0e3da645e07ccd1028d50d9a7ce5ef3189ba8aa7b3838b154be35b50542de7b6.jpg'); background-size: cover; background-position: center;font-size: larger;font-weight: bold;"></button>
+        <button class="button" onclick="window.location.href='Friends show.html'" style="background-image: url('https://i.pinimg.com/564x/fd/36/a3/fd36a3a54cbbdee8f9929cea49dc9b5d.jpg');font-size: larger; background-size: cover;background-position: center;font-weight: bold;"></button>
+        <button class="button" onclick="window.location.href='yeh jawani hai diwani.html'" style="background-image: url('https://static.spotboye.com/uploads/SINGLE-IMAGE_2021-5-31-13-52-50_thumbnail.jpg');font-size: larger; background-size: cover; background-position: center;font-weight: bold;"></button>
+        <button class="button" onclick="window.location.href='zindgi na milegi doobara.html'" style="background-image: url('https://m.media-amazon.com/images/S/pv-target-images/926a63e0690585b02e1482daab89ffcf74f777bef0a0a16177ff4f384468e9da.jpg');font-size: larger;font-weight: bold; background-size: cover; background-position: center;"></button>
+    </div>
+</body>
+</html>

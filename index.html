@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://www.airpano.com/files/norway_polar_lights_01_big.jpg);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative; /* Required for absolute positioning */
+        }
+        .top-image {
+            width: 20%; /* Set width to 100% */
+            height: 20%; /* Auto adjust height */
+            position: absolute;
+            top: 5%;
+            left: 30%;
+            z-index: -1;
+        }
+        .login-container {
+            text-align: center;
+            width: 80%; /* Adjust width */
+            max-width: 400px; /* Set maximum width */
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #96ebba;
+            background-color: #96ebba ;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: #ff749d; /* Changed to green */
+            color: rgb(110, 224, 252);
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #6a8ee2;
+        }
+        /* Added styles for the artistic heading */
+        .artistic-heading {
+            font-size: 24px;
+            font-family: 'month flower', Arial, sans-serif;
+            color: rgb(255, 255, 255);
+            margin-bottom: 20px;
+        }
+    </style>
+    <style>
+        @font-face {
+            font-family: 'month flower';
+            src: url('C:\Users\intel\Downloads\month_flower') format('woff2');
+            /* Add additional font file formats if necessary */
+        }
+    </style>
+</head>
+<body>
+    <img class="top-image" src="sea_green-removebg-preview (1).png" alt="Top Image">
+    <div class="login-container">
+        <form id="loginForm" method="post" action="your_target_page.html"> <!-- Change "your_target_page.html" to your desired URL -->
+            <input type="text" name="username" placeholder="who are you?" required>
+            <input type="password" name="password" placeholder="cheatcode" required>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+            
+            // Redirect to your desired URL
+            window.location.href = 'home.html'; // Change "your_target_page.html" to your desired URL
+        });
+    </script>
+</body>
+</html>
